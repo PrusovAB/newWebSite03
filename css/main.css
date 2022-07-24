@@ -1,0 +1,35 @@
+:root{
+	--bodyFS: 18px;
+	--bodyFFA: 'Inter', sans-serif;
+	--bodyColor: #262C27;
+	--bodyLH: 22px;
+	--bodyFFATwo:'Comfortaa', cursive;
+	--bodyMW: 1200px;
+	--bodyPaddingLeftRight: 15px + 15px ;
+	--bodyColorMain: #fff;
+}
+
+
+body{
+	font-size: var(--bodyFS);
+	font-family: var(--bodyFFA);
+	color: var(--bodyColor);
+	line-height: var(--bodyLH);
+	
+}
+
+a{
+	color: inherit; 
+	
+}
+
+.container{
+	max-width: calc(var(--bodyMW) + var(--bodyPaddingLeftRight));
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+.main{
+	
+}

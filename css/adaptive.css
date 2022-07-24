@@ -1,0 +1,193 @@
+.none{
+	display: none;
+}
+
+@media (max-width: 1340px){
+	.buy__inner{
+		gap: 40px ;
+	}
+	
+}
+
+
+
+
+
+
+@media (max-width: 1230px){
+	.header__decor-text.two{
+		left: 0;
+	}
+	.buy__inner{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	.buy__content{
+		margin-bottom: 40px;
+	}
+	.gallery__box{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.gallery__min{
+		margin-top: 0%;
+	}
+	.gallery-max{
+		padding-top: 30px;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows:auto auto auto;
+	}
+	.gallery-max-img{
+		width: 100%;
+		align-self: stretch;
+	}
+	.footer__social-title{
+		display: none;
+	}
+	.footer__social-gallery{
+		display: none;
+	}
+	.footer__menu-list{
+		display: none;
+	}
+	.footer__logo{
+		display: none;
+	}
+}
+
+
+@media (max-width: 1000px){
+	.info__top{
+		display: block;
+	}
+	.info__top-text{
+		width: 100%;
+	}
+	.info__top-text-two{
+		padding-bottom: 25px;
+		padding-top: 45px;
+	}
+	.info__top-img{
+		display: block;
+		margin: 0 auto;
+		width: 227px;
+	}
+	.info__top-text {
+		padding-top: 268px;
+	}
+	.info__top-text-one {
+		padding-bottom: 0px;
+	}
+	.info__specs{
+		display: block;
+	} 
+	.gallery__text{
+		font-size: 20px;
+		width: 100%;
+		
+	}
+	.gallery__min{
+		display: none;
+	}
+	
+}
+
+
+
+
+@media (max-width: 720px){
+	.header.btn{
+		width: 70%;
+	}
+	.header__top{
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px 90px;
+	}
+	.header__content-box{
+		margin-right: 0;
+	}
+	.header__decor-text{
+		display: none;
+	}
+	.header__content{
+		z-index: 6;
+	}
+	.info__specs-list{
+		width: 100%;
+	}
+	.info__top{
+		margin-bottom: 40vh;
+	}
+	.buy__img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 9;
+		opacity: 0.1;
+		height: 60vh;
+	}
+	.buy__inner{
+		position: relative;
+		z-index: 10;
+	}
+	.buy__inner{
+		gap: 0;
+	}
+	.buy__content{
+		width: 100%;
+	}
+	.buy__price{
+		
+		display: none;
+	}
+	.gallery-max-text{
+		font-size: 15px;
+		line-height: 140%;
+		color: black;
+	}
+}
+
+@media (max-width: 375px){
+	.header__tittle{
+		font-size: 55px;
+		line-height: 60px;
+	}
+	
+	
+}
+
+@media (max-width: 540px){
+	.info__specs-text{
+		text-align: center;
+	}
+	.info__top{
+		margin-bottom: 25vh;
+	}
+	.info__specs-item{
+		display: block;
+		margin-bottom: 45px;
+		border-bottom: 1px solid #fff;
+		padding-bottom: 10px;
+	}
+	.info__specs-caption{
+		margin-bottom: 15px;
+	}
+	.buy__img{
+		display: none;
+	}
+	.technology__title{
+		font-size: 20px;
+		color: #fff;
+	}
+	.info__btn{
+		
+		display: none;
+	}
+}
+
+

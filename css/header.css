@@ -1,0 +1,146 @@
+.header {
+	background-image: url(../img/header-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: center;
+	position: relative;
+}
+
+
+.header::before{
+	content: "";
+	position: absolute;
+	background-image: url(../img/header-spruce-top.svg);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 456px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: translateY(55%);
+	z-index: 2;
+}
+
+.header::after{
+	content: "";
+	position: absolute;
+	background-image: url(../img/header-spruce-top.svg);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 456px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: translateY(93%) rotate(180deg);
+	z-index: 3;
+}
+
+.header__top {
+	display: flex;
+	align-items: center;
+	padding: 57px 0;
+	gap: 100px;
+	justify-content: flex-end;
+	font-weight: 700;
+	line-height: var(--bodyLH);
+	font-family: var(--bodyFFATwo);
+	
+	
+}
+
+.logo:hover path{
+	fill:#0093A1;
+	
+	
+}
+
+.logo path{
+	transition: fill .3s ease;
+	/* aнимация плавно начинается и плавно заканчивается */
+}
+
+
+.logo {
+}
+.header__btn {
+	text-transform: uppercase;
+	padding: 12px 71px;
+	background-color: var(--bodyColor);
+	color: var(--bodyColorMain);
+	font-weight: 700;
+}
+.header__phone {
+}
+.header__content {
+	min-height: calc(100vh - 155px);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+	
+	
+}
+.header__content-box {
+	max-width: 550px;
+	text-align: center;
+	margin-right: 30px;
+	color: var(--bodyColorMain);
+	font-family: var(--bodyFFATwo);
+	font-weight: 700;
+	
+}
+.header__tittle {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	line-height: 71px;
+	font-size: 64px;
+
+	
+}
+.header__text {
+	font-size: 24px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+.header__decor-text {
+	position: absolute;
+	bottom: 25px;
+	color: #0093A1;
+}
+
+
+.header__decor-text.one{
+	z-index: 1;
+	right: 145px;
+	bottom: 135px;
+}
+
+.header__decor-text.one,
+.header__decor-text.two
+{
+	font-size: 130px;
+	line-height: 145px;
+	font-family: var(--bodyFFATwo);
+	opacity: 0.3;
+}
+
+.header__decor-text.two{
+	z-index: 4;
+	left: 265px;
+}
+
+
+.header__decor-text.three{
+	max-width: 360px;
+	right: 145px;
+	z-index: 4;
+	font-weight: 300;
+	font-family: var(--bodyFFA);
+	line-height: 39px;
+	text-align: center;
+	font-size: 32px;
+
+}
